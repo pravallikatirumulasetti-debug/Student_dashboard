@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <aside class="sidebar">
+        <h2 class="brand">Campus<span>.</span></h2>
+
+        <p class="menu-title">MENU</p>
+        <a href="#overview" class="active">▦ Dashboard</a>
+        <a href="#attendance">◷ Attendance</a>
+        <a href="#marks">▤ My Marks</a>
+        <a href="#timetable">▦ Timetable</a>
+        <a href="#assignments">☑ Assignments</a>
+        <a href="#announcements">◉ Announcements</a>
+
+        <div class="sidebar-bottom">
+            <p>Student Portal</p>
+            <small>Learn • Grow • Succeed</small>
+        </div>
+    </aside>
+
+    <main class="main-content">
+
+        <header class="topbar">
+            <div>
+                <h1>Dashboard</h1>
+                <p>Welcome back! Here's your academic overview.</p>
+            </div>
+            <div class="profile">
+                <div class="avatar">P</div>
+                <div>
+                    <strong>Pravallika</strong>
+                    <small>B.Tech Student</small>
+                </div>
+            </div>
+        </header>
+
+        <section id="overview" class="welcome-card">
+            <div>
+                <p>YOUR LEARNING JOURNEY</p>
+                <h2>Hello, Pravallika! 👋</h2>
+                <p>Keep learning, keep growing. Your future starts today!</p>
+            </div>
+            <div class="welcome-icon">🎓</div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card purple">
+                <span>📚</span>
+                <p>Total Subjects</p>
+                <h2>6</h2>
+            </div>
+
+            <div class="stat-card blue">
+                <span>📅</span>
+                <p>Attendance</p>
+                <h2>92%</h2>
+            </div>
+
+            <div class="stat-card pink">
+                <span>📝</span>
+                <p>Assignments</p>
+                <h2>8</h2>
+            </div>
+
+            <div class="stat-card orange">
+                <span>🏆</span>
+                <p>Average Score</p>
+                <h2>85%</h2>
+            </div>
+        </section>
+
+        <section class="content-grid">
+
+            <div class="panel" id="attendance">
+                <h3>Attendance Overview</h3>
+                <div class="attendance-circle">
+                    <div>
+                        <strong>92%</strong>
+                        <small>Present</small>
+                    </div>
+                </div>
+                <p class="center-text">Great work! Keep maintaining your attendance.</p>
+            </div>
+
+            <div class="panel" id="marks">
+                <h3>Subject Performance</h3>
+
+                <div class="subject">
+                    <div><span>Python</span><b>85%</b></div>
+                    <div class="progress"><span style="width:85%"></span></div>
+                </div>
+
+                <div class="subject">
+                    <div><span>Mathematics</span><b>90%</b></div>
+                    <div class="progress"><span style="width:90%"></span></div>
+                </div>
+
+                <div class="subject">
+                    <div><span>Web Development</span><b>88%</b></div>
+                    <div class="progress"><span style="width:88%"></span></div>
+                </div>
+
+                <div class="subject">
+                    <div><span>English</span><b>80%</b></div>
+                    <div class="progress"><span style="width:80%"></span></div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="panel" id="timetable">
+            <h3>Today's Timetable</h3>
+
+            <div class="class-row">
+                <span>09:20 AM</span>
+                <div><strong>Mathematics</strong><small>Room 101</small></div>
+                <span class="tag purple-tag">Completed</span>
+            </div>
+
+            <div class="class-row">
+                <span>10:20 AM</span>
+                <div><strong>Python Programming</strong><small>Computer Lab</small></div>
+                <span class="tag blue-tag">Completed</span>
+            </div>
+
+            <div class="class-row">
+                <span>12:00 PM</span>
+                <div><strong>Web Development</strong><small>Room 204</small></div>
+                <span class="tag pink-tag">Upcoming</span>
+            </div>
+
+            <div class="class-row">
+                <span>02:00 PM</span>
+                <div><strong>English</strong><small>Room 105</small></div>
+                <span class="tag orange-tag">Upcoming</span>
+            </div>
+        </section>
+
+        <section class="content-grid">
+
+            <div class="panel" id="assignments">
+                <h3>Assignments</h3>
+                <div class="task">
+                    <span>Python Activity Project</span>
+                    <b class="due">Due Soon</b>
+                </div>
+                <div class="task">
+                    <span>HTML & CSS Website</span>
+                    <b class="due">In Progress</b>
+                </div>
+                <div class="task">
+                    <span>Maths Practice</span>
+                    <b class="done">Completed</b>
+                </div>
+            </div>
+
+            <div class="panel" id="announcements">
+                <h3>Announcements</h3>
+                <div class="notice">
+                    <span>📢</span>
+                    <div>
+                        <strong>Web Development Activity</strong>
+                        <p>Submit your three projects by the announced deadline.</p>
+                    </div>
+                </div>
+                <div class="notice">
+                    <span>📌</span>
+                    <div>
+                        <strong>College Notice</strong>
+                        <p>Check your class timetable regularly for updates.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            © 2026 Campus Dashboard | Designed for Students 💜
+        </footer>
+
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
